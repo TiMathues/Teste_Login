@@ -1,0 +1,71 @@
+<!DOCTYPE html><!--https://www.youtube.com/watch?v=qKWApkuhNu8&ab_channel=LarissaKich-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Teste_Login</title>
+</head>
+<body>
+    <main id="container">
+        <form id="login_form">
+            <div class="form_header">
+                <h1>Login</h1>
+                <i id="mode_icon" class='bx bxs-moon'></i>
+            </div>
+            <div class="media">
+                <a href="#">
+                    <img src="/imgs/goole.png" alt="Google Logo">
+                </a>
+                <a href="#">
+                    <img src="/imgs/faebook.png" alt="Facebook Logo">
+                </a>
+                <a href="#">
+                    <img src="/imgs/gihub.png" alt="Github logo">
+                </a>
+            </div>
+             <div id="inputs">
+                <div class="input_box">
+                    <label for="name">
+                        Name
+                        <div class="input_field">
+                            <i class='bx bxs-user'></i>
+                            <input type="text" id="name" name="name">
+                        </div>
+                    </label>
+                </div>
+                <!---->
+                <div class="input_box">
+                    <label for="email">
+                        E-mail
+                        <div class="input_field">
+                            <i class='bx bxs-envelope'></i>
+                            <input type="text" id="email" name="email">
+                        </div>
+                    </label>
+                </div>
+                <!---->
+                <div class="input_box">
+                    <label for="password">
+                        Password
+                        <div class="input_field">
+                            <i class='bx bxs-key'></i>
+                            <input type="password" id="password" name="password">
+                        </div>
+                    </label>
+
+                    <div id="forgot_password">
+                        <a href="#">
+                            Forgot your password?
+                        </a>
+                    </div>
+                </div>
+             </div>
+             <button type="submit" id="login_btn">
+                Login
+             </button>
+        </form>
+    </main>
+</body>
+</html>
